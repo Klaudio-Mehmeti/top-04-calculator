@@ -46,6 +46,11 @@ p {
 	border-radius: 20px;
 }
 
+.previous-operand, .temp-result {
+    color: grey;
+}
+
+
 .btn,
 .display,
 .delete,
