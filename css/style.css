@@ -5,7 +5,7 @@
 }
 
 html {
-	font-family: 'Press Start 2P', 'VT323', monospace;
+	font-family: 'VT323','sans serif','Press Start 2P',  'monospace';
 	font-weight: 100;
 	font-size: 14px;
 	text-rendering: optimizeLegibility;
@@ -20,17 +20,15 @@ html {
 
 body {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    flex-direction: column;
 }
 
-h1 {
-	font-size: 40px;
-}
-
-p {
-	font-size: 20px;
+footer{
+    display: none;
+    color: grey;
 }
 
 #container {
@@ -48,6 +46,16 @@ p {
 
 .previous-operand, .temp-result {
     color: grey;
+    font-size: 20px;
+}
+
+.current-operand{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.temp-result{
+    text-align: left;
 }
 
 
@@ -76,6 +84,7 @@ p {
 	text-align: end;
 	flex-direction: column;
 	justify-content: space-around;
+    flex-wrap: wrap
 }
 
 .clear {

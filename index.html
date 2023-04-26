@@ -10,30 +10,34 @@
 <body>
     <section id="container">
         <div class= "display">
-            <div class="previous-operand">0</div>
-            <div class="current-operand">0</div>
-            <div class="temp-result">0</div>
+            <div data-previous-operand class="previous-operand"> </div>
+            <div data-current-operand class="current-operand">0</div>
+            <!-- <div class="temp-result">0</div> -->
         </div>
-            <div class="clear">CLEAR</div>
-            <div class="delete">DELETE</div>
-            <button class="btn number" id="seven">7</button>
-            <button class="btn number " id="eight">8</button>
-            <button class="btn number" id="nine">9</button>
-            <button class="btn operator" id="divide">/</button>
-            <button class="btn number" id="three">3</button>
-            <button class="btn number " id="five">5</button>
-            <button class="btn number" id="six">6</button>
-            <button class="btn operator" id="multiply">x</button>
-            <button class="btn number" id="one">1</button>
-            <button class="btn number " id="two">2</button>
-            <button class="btn number" id="three">3</button>
-            <button class="btn operator" id="subtract">-</button>
-            <button class="btn number decimal">.</button>
-            <button class="btn number" id="zero">0</button>
-            <button class="btn equal">=</button>
-            <div class="btn operator" id="sum">+</div>
+            <button data-all-clear class="clear">CLEAR</button>
+            <button data-delete class="delete">DELETE</button>
+            <button data-number class="btn number">7</button>
+            <button data-number class="btn number " >8</button>
+            <button data-number class="btn number" >9</button>
+            <button data-operation class="btn operator" >/</button>
+            <button data-number class="btn number" >4</button>
+            <button data-number class="btn number " >5</button>
+            <button data-number class="btn number" >6</button>
+            <button data-operation class="btn operator" >*</button>
+            <button data-number class="btn number" >1</button>
+            <button data-number class="btn number " >2</button>
+            <button data-number class="btn number" >3</button>
+            <button data-operation class="btn operator" >-</button>
+            <button data-number class="btn number decimal">.</button>
+            <button data-number class="btn number" >0</button>
+            <button data-equals class="btn equal">=</button>
+            <button data-operation class="btn operator" >+</button>
         
     </section>
+
+    <footer>
+        <h3>Copyright © 2023 Klaudio Mehmeti</h3>
+    </footer>
 </body>
 <script src="script/script.js"></script>
 </html>
